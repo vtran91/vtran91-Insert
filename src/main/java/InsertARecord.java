@@ -33,9 +33,11 @@ public class InsertARecord {
      *          |'Hotel California' |'Eagles'               |
      *          |'Kashmir'          |'Led Zeppelin'         |
      *
-     * Note: when inserting strings, you wrap the string in a single quote. 'like this'
+     * Do not change anything in this code. You should write your sql statement on a single line in the
+     * problem1.sql file.
      * */
     public boolean problem1(){
+//        write your SQL logic in a single line in the problem1.sql file.
         String sql = FileUtil.parseSQLFile("problem1.sql");
         try {
             Connection connection = ConnectionUtil.getConnection();
